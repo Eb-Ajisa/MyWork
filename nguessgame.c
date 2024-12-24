@@ -8,8 +8,7 @@ int main(){
     int num = rand()  %100 + 1; //generate a random number between 1 and 100
     int guess;
     int tries = 1;
-    printf("Guess a random numbere between 1 and 100: ");
-
+    printf("Guess a random number between 1 and 100:");
     scanf("%d", &guess);
     
       
@@ -17,8 +16,9 @@ int main(){
     {
         
         char again;
-        printf("Wrong do you want to try again? (y/n): ");
-        scanf(" %c", &again); // Added a space before %c to consume any leftover newline character
+        printf("Wrong do you want to try again? (y/n):");
+        while(getchar() != '\n'); // Flush stdin to consume any leftover newline character
+        scanf(" %c", &again); // Added a space before %c to consume any leftover whitespace characters
         if(again == 'n')
         {
             printf("The answer was %d, goodbye! ", num);
@@ -26,12 +26,12 @@ int main(){
         }
         else if(again == 'y')
         {
-            printf("Guess the random numbere between 1 and 100: ");
-            scanf(" %d", &guess);
             tries +=1;
+            printf("Guess the random numbere between 1 and 100: ");
+            scanf("%d", &guess);
         }
         else{
-            printf("Invalid input");
+            printf("Invalid input\n");
         }
         
     }
