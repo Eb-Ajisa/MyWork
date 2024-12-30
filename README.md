@@ -18,4 +18,5 @@ I plan to do anything in my power to get relevant experience pertaining to compu
 Website/Skill  | Project Link/Badge
 ------------- | -------------
 Kc7Cyber: Valdorian Times KQL  | https://kc7cyber.com/badges/earned/7513
+Kc7Cyber: Rap Beef | https://kc7cyber.com/badges/earned/7722
 CompTIA Security+ cert  | https://www.credly.com/badges/5c880db9-bc83-4867-b41e-a883b542f5bc/linked_in_profile
