@@ -2,14 +2,14 @@
 
 Linkedln</a>, <a href="https://kc7cyber.com/profile/EbenezerAjisafe">KC7 Cyber</a></h1>
 
-<h2>👨‍💻 Cyber Security Projects:</h2>
+<h2>🌐 Cyber Security Projects:</h2>
 
 - <b>Kc7Cyber: Valdorian Times KQL</b>
   - https://kc7cyber.com/badges/earned/7513
 - <b>Kc7Cyber: Rap Beef</b>
   - https://kc7cyber.com/badges/earned/7722
  
-<h2>Software Programming Projects: </h2>
+ <h2>👨‍💻Software Programming Projects: </h2>
 
 - <b> Temperature Converter </b>
     - https://github.com/Eb-Ajisa/MyWork/blob/main/TempConversion.cpp
