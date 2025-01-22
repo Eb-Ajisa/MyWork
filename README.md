@@ -18,7 +18,7 @@ Linkedln</a>, <a href="https://kc7cyber.com/profile/EbenezerAjisafe">KC7 Cyber</
 - <b> Number Guessing game </b>
     - https://github.com/Eb-Ajisa/MyWork/blob/main/nguessgame.c
 - <b> Python Simple Slot Machine </b>
-    -https://github.com/Eb-Ajisa/MyWork/blob/main/SlotMachine.py
+    - https://github.com/Eb-Ajisa/MyWork/blob/main/SlotMachine.py
 
 <h2>Certifications</h2>
 
