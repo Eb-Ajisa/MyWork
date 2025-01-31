@@ -53,7 +53,7 @@ toaddr = 'Insert Email'
 username = getpass.getuser()
 
 
-file_path = 'C:\\Users\\ebby2\\pyt\\Hacking\\Project'
+file_path = 'C:\\Users\\' + username
 extend = '\\'
 file_merge = file_path + extend
 
