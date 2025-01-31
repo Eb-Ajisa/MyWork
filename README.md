@@ -26,6 +26,7 @@ Linkedln</a>, <a href="https://kc7cyber.com/profile/EbenezerAjisafe">KC7 Cyber</
 
 - Security+
 - Google Cyber Professional
+- AWS Cloud Practitioner
   
 <h1>Objective</h1>
 I plan to do anything in my power to get relevant experience pertaining to computer science even if it is IT. I dont mind if I am in the cyber, cloud, or the software field, aslong as I am gaining knowledge in the tech field of STEM. I desire to reshape the technology and/or advance the sector of STEM, and in order to do that I need as much exerience as I can get, thus I am takiing it upon myself to get many certifications and desire to work with companies.
