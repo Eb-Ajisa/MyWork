@@ -1,4 +1,4 @@
-<h1>Blessed day, My name is Ebenezer Ajisafe <br/><a href="www.linkedin.com/in/ebenezerajisafe
+<h1>Hello, My name is Ebenezer Ajisafe <br/><a href="www.linkedin.com/in/ebenezerajisafe
 
 Linkedln</a>, <a href="https://kc7cyber.com/profile/EbenezerAjisafe">KC7 Cyber</a></h1>
 
