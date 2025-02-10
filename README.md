@@ -1,6 +1,5 @@
-<h1>Hello, My name is Ebenezer Ajisafe <br/><a href="www.linkedin.com/in/ebenezerajisafe
-
-Linkedln</a>, <a href="https://kc7cyber.com/profile/EbenezerAjisafe">KC7 Cyber</a></h1>
+<h1>Hello, My name is Ebenezer Ajisafe <br/>
+  <a href="www.linkedin.com/in/ebenezerajisafe"> Linkedln</a>, <a href="https://kc7cyber.com/profile/EbenezerAjisafe">KC7 Cyber</a></h1>
 
 <h2>🌐 Cyber Security Projects:</h2>
 
