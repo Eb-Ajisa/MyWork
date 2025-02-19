@@ -20,6 +20,8 @@
     - https://github.com/Eb-Ajisa/MyWork/blob/main/SlotMachine.py
 - <b> Python Key Logger </b>
     - https://github.com/Eb-Ajisa/MyWork/blob/main/keylogger.py
+- <b> Python FastHTML Contact List </b>
+    - https://github.com/Eb-Ajisa/MyWork/blob/main/FastHTML%20Quick%20Contact%20List%20project.py
 
 <h2>Certifications</h2>
 
