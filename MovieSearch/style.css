@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+}
+
+html    {
+    background-color: #131720;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+h3 {
+    color: white;
+}
+
+.topnav{
+    overflow: hidden;
+    background-color: #131720;
+    padding: 10px;
+}
+.topnav a{
+    float:left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+a:visited {
+    color: white;
+}
+
+.topnav .search-container{
+    float: right;
+}
+
+form {
+    background-color: antiquewhite;
+    width: 300;
+    height: 43px;
+
+    border-radius: 11px;
+    display: flex;
+    align-items: center;
+}
+
+input {
+
+    all:unset;
+    font: 15px system-ui;
+    color: rgb(0, 0, 0);
+    height: 100% ;
+    width: 100% ;
+    padding: 6px 9px;
+}
+
+.thumbnail{
+    height: 300px;
+    width: 200px;
+    border-radius: 19px;
+}
+
+.column {
+    float: left;
+    width: 28%;
+    padding: 10px 10px;
+}
+
+.card {
+    border-radius: 19px;
+    padding: 15px;
+    text-align: center;
+    background-color: rgb(185, 55, 55);
+}
