@@ -12,8 +12,6 @@
 
 - <b> Temperature Converter </b>
     - https://github.com/Eb-Ajisa/MyWork/blob/main/TempConversion.cpp
-- <b> TicTacToe </b>
-    - https://github.com/Eb-Ajisa/MyWork/blob/main/tictactoe.c
 - <b> Number Guessing game </b>
     - https://github.com/Eb-Ajisa/MyWork/blob/main/nguessgame.c
 - <b> Python Simple Slot Machine </b>
