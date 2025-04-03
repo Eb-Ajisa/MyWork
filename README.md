@@ -7,6 +7,8 @@
   - https://kc7cyber.com/badges/earned/7513
 - <b>Kc7Cyber: Rap Beef</b>
   - https://kc7cyber.com/badges/earned/7722
+- <b> Python Key Logger </b>
+    - https://github.com/Eb-Ajisa/MyWork/blob/main/keylogger.py
  
  <h2>👨‍💻Software Programming Projects: </h2>
 
@@ -16,8 +18,7 @@
     - https://github.com/Eb-Ajisa/MyWork/blob/main/nguessgame.c
 - <b> Python Simple Slot Machine </b>
     - https://github.com/Eb-Ajisa/MyWork/blob/main/SlotMachine.py
-- <b> Python Key Logger </b>
-    - https://github.com/Eb-Ajisa/MyWork/blob/main/keylogger.py
+
 - <b> Python FastHTML Contact List </b>
     - https://github.com/Eb-Ajisa/MyWork/blob/main/FastHTML%20Quick%20Contact%20List%20project.py
 - <b> Python MultiplayerTikTakToe
