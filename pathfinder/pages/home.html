@@ -1,0 +1,225 @@
+<!-- Home Webpage for website -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--headers linkrel = css file 1, script = typescript and a extra js file-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" contesnt="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+
+    <link rel="stylesheet" href="/home.css">
+    <script src="/menu.js" type="module"></script>
+    <script src="/fromto.js" type="module"></script>
+    <script src="/maps.js" type="module"></script>
+    <script type="module" src="/chat.js"></script>
+    <script type="module" src="../middleware/logEvents.js"></script>
+    <script type="module" src="../middleware/errorHandler.js"></script>
+
+</head>
+<body>
+
+    <div class="topnav">
+        <a class="active" id=home href="home">Home</a>
+        <label id="optional">Optional Field [Use for AI integration]</label>
+        <form id="form">
+        <div class="container">
+          <div class="optioname">
+            <label for="building">From:</label>
+          </div>
+          <select id="building1">
+            <div class="places">
+              <option value="sc">science complex</option>
+              <option value="gg">glen garage</option>
+              <option value="ab">administration building</option>
+              <option value="hh">hawkins hall</option>
+              <option value="lh">lithicum hall</option>
+              <option value="th">tubman, hariss, barton, douglas hall</option>
+              <option value="uu">university union</option>
+              <option value="ml">millenium hall</option>
+              <option value="tw">10-west</option>
+              <option value="ca">center for the arts</option>
+              <option value="gt">glen towers and dining hall</option>
+              <option value="yr">york rd/comp sci/math building</option>
+              <option value="lah">lecture hall</option>
+              <option value="cl">library</option>
+              <option value="na">newell</option>
+              <option value="lab">liberal arts</option>
+              <option value="mh">marshall and barnes</option>
+              <option value="wvc">west village commons</option>
+              <option value="wvg">west village garage</option>
+              <option value="es">enrollment services</option>
+              <option value="psb">psycology building</option>
+              <option value="rt">towers</option>
+              <option value="bd">burdick hall</option>
+              <option value="sav">Stephens and Van hall</option>
+              <option value="healthp">Heath Professional Building</option>
+
+            </div>
+          </select>
+        </div>
+        <div class="container">
+          <div class="optioname">
+            <label for="fruit">To:</label>
+          </div>
+          <select id="building2" value="ss">
+            <div class="places">
+              <option value="sc">science complex</option>
+              <option value="gg">glen garage</option>
+              <option value="ab">administration building</option>
+              <option value="hh">hawkins hall</option>
+              <option value="lh">lithicum hall</option>
+              <option value="th">tubman, hariss, barton, douglas hall</option>
+              <option value="uu">university union</option>
+              <option value="ml">millenium hall</option>
+              <option value="tw">10-west</option>
+              <option value="ca">center for the arts</option>
+              <option value="gt">glen towers and dining hall</option>
+              <option value="yr">york rd/comp sci/math building</option>
+              <option value="lah">lecture hall</option>
+              <option value="cl">library</option>
+              <option value="na">newell</option>
+              <option value="lab">liberal arts</option>
+              <option value="mh">marshall and barnes</option>
+              <option value="wvc">west village commons</option>
+              <option value="wvg">west village garage</option>
+              <option value="es">enrollment services</option>
+              <option value="psb">psycology building</option>
+              <option value="rt">towers</option>
+              <option value="bd">burdick hall</option>
+              <option value="sav">Stephens and Van hall</option>
+              <option value="healthp">Heath Professional Building</option>
+            </div>
+          </select>
+        </div> 
+        <input type="submit" value="Submit" id="buttonforsearch">
+      <div id="complete">  
+      </form>
+        <div id="">
+          <form id="year_building">
+            <select id="homee", name="homee">
+              <option value="ml">Millenium Hall</option>
+              <option value="mh">Marshall or barnes</option>
+              <option value="th">Tubman, Douglas, Haris, Barton</option>
+              <option value="tts">Towsonplace</option>
+              <option value="gt">Glen Towers</option>
+              <option value="rt">Res Towers</option>
+              <option value="tw">10-west</option>
+              <option value="ofc">Off Campus</option>
+            </select>
+            <label id="yearlabel">What year are you?</label>
+            <label id="homelabel">What do you live in?</label>
+            <label id="majorlabel">What is your major?</label>
+
+          </div>
+          <div id="years">
+            <select id="year", name="year">
+              <option value="f">Freshman</option>
+              <option value="s">Sophmore</option>
+              <option value="j">Junior</option>
+              <option value="ss">Senior</option>
+            </select>
+          </div>
+          <div id="select_major">
+            <select id="major"name="major">
+              <option value="cs">Computer Science Related</option>
+              <option value="hs">Health Related</option>
+              <option value="bio">Biology/Chemistry Related</option>
+              <option value="liba">Liberal Arts</option>
+              <option value="perform">Performing Arts Related</option>
+            </select>
+          </div>
+        </form>
+
+      </div>
+    </div>
+        <div class="dropdown">
+            <button onclick="myFunction()" class="dropbtn">Menu</button>
+            <div id="myDropdown" class="dropdown-content">
+              <a href="login">Login</a>
+              <a href="form">TU STUDENT SIGN UP</a>
+            </div>
+            
+            <!--Script For Menu button-->
+            <script>
+                function myFunction() {
+                  document.getElementById("myDropdown").classList.toggle("show");
+                }
+                
+                window.onclick = function(event) {
+                  if (!event.target.matches('.dropbtn')) {
+                    var dropdowns = document.getElementsByClassName("dropdown-content");
+                    var i;
+                    for (i = 0; i < dropdowns.length; i++) {
+                      var openDropdown = dropdowns[i];
+                      if (openDropdown.classList.contains('show')) {
+                        openDropdown.classList.remove('show');
+                      }
+                    }
+                  }
+                }
+            </script>
+        </div>
+    </div>
+
+
+
+    <div id="sidebar">
+    </div>
+    <div id="directionsPanel"></div>
+      <div id="map">
+        <script
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAVWWTWnFiXBQXuhXCkNMc7tM-3SoBFs-Y&callback=initMap&v=weekly"
+      ></script>
+      </div>
+      <div id="directionsPanel2"></div>
+      <div id="map2"></div>
+      <div id="directionsPanel3"></div>
+      <div id="map3"></div>
+      <div id="directionsPanel4"></div>
+      <div id="map4"></div>
+      <script src="/chat.js"></script>
+
+    <div id="chat-widget">
+      <div id="chat-toggle">💬</div>
+      <div id="chat-box">
+        <div id="chat-messages"></div>
+        <input type="text" id="chat-input" placeholder="Type a message..." />
+        <button id="chat-send">Send</button>
+      </div>
+    </div>
+
+    </body>
+<script>
+document.addEventListener("DOMContentLoaded", async () => {
+  const userInfo = JSON.parse(localStorage.getItem("userInfo"));
+  if (userInfo) {
+    const yearSelect = document.getElementById("year");
+    const majorSelect = document.getElementById("major");
+    const homeSelect = document.getElementById("homee");
+
+    if (yearSelect && majorSelect && homeSelect) {
+      yearSelect.value = userInfo.Year;
+      majorSelect.value = userInfo.Major;
+      homeSelect.value = userInfo.Home;
+    }
+
+    // Greeting
+    const topnav = document.querySelector(".topnav");
+    const greeting = document.createElement("div");
+    greeting.style.position = "relative";
+    greeting.style.top = "-40px";
+    greeting.style.marginLeft = "20px";
+    greeting.textContent = `Hello, ${userInfo.username}`;
+    topnav.appendChild(greeting);
+
+}
+});
+</script>
+
+
+
+</html>
+
+<!-- <script>(g=>{var h,a,k,p="The Google Maps JavaScript API",c="google",l="importLibrary",q="__ib__",m=document,b=window;b=b[c]||(b[c]={});var d=b.maps||(b.maps={}),r=new Set,e=new URLSearchParams,u=()=>h||(h=new Promise(async(f,n)=>{await (a=m.createElement("script"));e.set("libraries",[...r]+"");for(k in g)e.set(k.replace(/[A-Z]/g,t=>"_"+t[0].toLowerCase()),g[k]);e.set("callback",c+".maps."+q);a.src=`https://maps.${c}apis.com/maps/api/js?`+e;d[q]=f;a.onerror=()=>h=n(Error(p+" could not load."));a.nonce=m.querySelector("script[nonce]")?.nonce||"";m.head.append(a)}));d[l]?console.warn(p+" only loads once. Ignoring:",g):d[l]=(f,...n)=>r.add(f)&&u().then(()=>d[l](f,...n))})
+        ({key: "AIzaSyAVWWTWnFiXBQXuhXCkNMc7tM-3SoBFs-Y", v: "weekly"});</script> -->
