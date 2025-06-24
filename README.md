@@ -25,7 +25,8 @@
     - https://github.com/Eb-Ajisa/MyWork/tree/main/MultiplayerTIKTAKTOE
 - <b> React ToDo app </b>
     - https://github.com/Eb-Ajisa/MyWork/tree/main/ReactToDo
-
+- <b> GPS Towson Pathfinder
+    - https://github.com/Eb-Ajisa/MyWork/tree/main/pathfinder
 <h2>Certifications</h2>
 
 - Security+
