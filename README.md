@@ -9,6 +9,7 @@
   - https://kc7cyber.com/badges/earned/7722
 - <b> Python Key Logger </b>
     - https://github.com/Eb-Ajisa/MyWork/blob/main/keylogger.py
+- <b> Splunk Dashboard </b>
  
  <h2>👨‍💻Software Programming Projects: </h2>
  
