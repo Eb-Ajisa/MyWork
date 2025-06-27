@@ -11,16 +11,9 @@
     - https://github.com/Eb-Ajisa/MyWork/blob/main/keylogger.py
  
  <h2>👨‍💻Software Programming Projects: </h2>
-
-- <b> Temperature Converter </b>
-    - https://github.com/Eb-Ajisa/MyWork/blob/main/TempConversion.cpp
-- <b> Number Guessing game </b>
-    - https://github.com/Eb-Ajisa/MyWork/blob/main/nguessgame.c
+ 
 - <b> Python Simple Slot Machine </b>
     - https://github.com/Eb-Ajisa/MyWork/blob/main/SlotMachine.py
-
-- <b> Python FastHTML Contact List </b>
-    - https://github.com/Eb-Ajisa/MyWork/blob/main/FastHTML%20Quick%20Contact%20List%20project.py
 - <b> Python MultiplayerTikTakToe
     - https://github.com/Eb-Ajisa/MyWork/tree/main/MultiplayerTIKTAKTOE
 - <b> React ToDo app </b>
